@@ -1,0 +1,97 @@
+/* Card Content */
+.CardContent {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: cover;
+    overflow: auto;
+}
+
+/* Card */
+.Card {
+    height: 350px;
+    width: 300px;
+    background-color: #eee;
+    text-align: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 1px solid #aaa;
+}
+
+.Card * {
+    margin: 0;
+}
+
+/* Card Header */
+.Card header {
+    padding-bottom: 20px;
+}
+
+/* Card Body */
+.Card main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.Card main div {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card main p {
+    color: #999;
+}
+
+.Card main h4 {
+    margin-bottom: 10px;
+}
+
+/* Priority */
+.Baja {
+    --bg-color: #48e;
+}
+
+.Media {
+    --bg-color: #0b6;
+}
+
+.Alta {
+    --bg-color: #f25;
+}
+
+.Card main span {
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    padding: 0 8px;
+    color: #fff;
+    width: fit-content;
+    justify-items: end;
+}
+
+/* Card Footer */
+.Card footer {
+    padding-top: 20px;
+}
+
+.Card footer button {
+    outline: none;
+    background-color: #f25;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+}

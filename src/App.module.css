@@ -1,0 +1,21 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(22,19,101);
+    background: linear-gradient(130deg, rgba(22,19,101,1) 0%, rgba(0,127,255,1) 100%);
+    display: grid;
+    grid-template-areas:
+        "Topbar Topbar"
+        "Form Task"
+    ;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 500px 1fr;
+}
+
+.Topbar {
+    grid-area: Topbar;
+}
+
+.Form {
+    grid-area: Form;
+}

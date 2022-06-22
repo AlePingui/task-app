@@ -1,0 +1,22 @@
+.Topbar {
+    height: 50px;
+    background-color: #223;
+    color: #fff;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.Topbar h4 {
+    margin: 0;
+    font-size: 1.3rem;
+    user-select: none;
+}
+
+.Topbar h4 span {
+    font-size: 1rem;
+    background-color: #fff;
+    color: #000;
+    padding: 0 8px;
+    border-radius: 12px;
+}
